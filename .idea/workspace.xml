@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9aa7e52-1ff0-4b59-a20b-aa04395e38b7" name="Changes" comment="infrastructure" />
+    <list default="true" id="f9aa7e52-1ff0-4b59-a20b-aa04395e38b7" name="Changes" comment="infrastructure">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/github.test.java-application-conventions.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/github.test.java-common-conventions.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/github.test.java-library-conventions.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/main/java/github/test/list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/github/test/list/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/test/java/github/test/list/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/github/test/list/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/src/main/java/github/test/utilities/JoinUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/src/main/java/github/test/utilities/SplitUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/src/main/java/github/test/utilities/StringUtils.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,7 +53,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hongliang.song\github-test" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -29,7 +69,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682575304340</updated>
-      <workItem from="1682575306167" duration="2635000" />
+      <workItem from="1682575306167" duration="5887000" />
+      <workItem from="1682584346585" duration="20000" />
+      <workItem from="1682584384081" duration="1276000" />
+      <workItem from="1682642879302" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="infrastructure">
       <created>1682576658494</created>
@@ -45,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682578444412</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="infrastructure">
+      <created>1682578545168</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682578545168</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -61,6 +111,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="infrastructure" />

@@ -8,4 +8,4 @@
  */
 
 rootProject.name = 'github-test'
-include('app', 'list', 'utilities')
+include('app', 'common')

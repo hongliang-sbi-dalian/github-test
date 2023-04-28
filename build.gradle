@@ -1,0 +1,25 @@
+
+plugins {
+    id 'java'
+    id 'idea'
+    id 'com.diffplug.spotless' version '6.12.0'
+    id 'org.springframework.boot' version '2.7.2'
+    id 'io.spring.dependency.management' version '1.0.14.RELEASE'
+}
+
+allprojects{
+    ext{
+        COMMONS_LANG3_VERSION="3.12.0"
+    }
+    group='com.hongliang.test'
+    version='1.0.0'
+
+    apply plugin:'java'
+    apply plugin:'idea'
+    apply plugin:'com.diffplug.spotless'
+    apply plugin:'org.springframework.boot'
+    apply plugin:'io.spring.dependency-management'
+    sourceCompatibility=JavaVersion.VERSION_17
+    targetCompatibility=JavaVersion.VERSION_17
+}
+

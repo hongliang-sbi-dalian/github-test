@@ -18,4 +18,22 @@ public class App {
         String result = join(tokens);
         System.out.println(WordUtils.capitalize(result));
     }
+
+    private int getLevelNum(ObjectError o) {
+        int level = LEVEL_NUM_DEFAULT;
+
+        if (o.getCode() != null) {
+            if (LEVEL_FINAL.matcher(o.getCode()).matches()) {
+                level = LEVEL_NUM_FINAL;
+            } else if (LEVEL_1.matcher(o.getCode()).matches()) {
+                level = LEVEL_NUM_1;
+            } else if (LEVEL_2.matcher(o.getCode()).matches()) {
+                level = LEVEL_NUM_2;
+            } else if (LEVEL_0.matcher(o.getCode()).matches()) {
+                level = LEVEL_NUM_0;
+            }
+        }
+
+        return level;
+    }
 }
